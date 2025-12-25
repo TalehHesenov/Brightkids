@@ -1,7 +1,7 @@
-package az.itbrains.brightkids.models;
+package az.itbrains.brightkids.dtos.response;
 
-
-import jakarta.persistence.Entity;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,10 +9,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class HeroBanner extends BaseEntity {
+public class HeroBannerResponse {
 
     private String title;
     private String description;
@@ -23,6 +22,4 @@ public class HeroBanner extends BaseEntity {
     private String linkButtonTwoName;
     private String linkTagUrl;
     private String linkTagName;
-
-
 }
