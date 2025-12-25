@@ -10,4 +10,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class SupportBannerDto {
+    private String title;
+    private String description;
+    private String firstButtonText;
+    private String firstButtonUrl;
+    private String secondButtonText;
+    private String secondButtonUrl;
+    private String imageUrl;
 }

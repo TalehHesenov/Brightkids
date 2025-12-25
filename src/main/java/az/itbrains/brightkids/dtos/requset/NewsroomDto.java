@@ -11,4 +11,12 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class NewsroomDto {
+    private String title;
+    private String imageUrl;
+    private String category;
+    private String date;
+    private String actionText;
+    private String actionUrl;
+    private String buttonText;
+    private String buttonUrl;
 }
