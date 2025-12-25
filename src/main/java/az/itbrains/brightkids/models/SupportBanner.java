@@ -6,18 +6,20 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@Entity
 @Getter
 @Setter
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalService {
+public class SupportBanner {
 
-//    Why Families Trust Us
+//    Give Families Hope and Healing
 
     private String title;
     private String description;
+    private String firstButtonText;
+    private String firstButtonUrl;
+    private String secondButtonText;
+    private String secondButtonUrl;
     private String imageUrl;
-    private String actionText;
-    private String actionUrl;
 }
