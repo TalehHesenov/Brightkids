@@ -1,4 +1,14 @@
 package az.itbrains.brightkids.models;
 
-public class HeroBanner {
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class HeroBanner extends BaseEntity {
 }
