@@ -6,15 +6,17 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@Entity
 @Getter
 @Setter
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalService {
+public class Newsroom {
+
     private String title;
-    private String description;
     private String imageUrl;
+    private String category;
+    private String date;
     private String actionText;
     private String actionUrl;
 }

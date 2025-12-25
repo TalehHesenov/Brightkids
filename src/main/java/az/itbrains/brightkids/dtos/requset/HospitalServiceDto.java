@@ -9,5 +9,5 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PatientStoryDto {
+public class HospitalServiceDto {
 }
