@@ -10,4 +10,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PatientStoryDto {
+    private String title;
+    private String description;
+    private String buttonText;
+    private String buttonUrl;
+    private String imageUrl;
 }

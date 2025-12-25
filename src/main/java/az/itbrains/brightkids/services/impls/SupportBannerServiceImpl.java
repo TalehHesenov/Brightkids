@@ -1,10 +1,10 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.services.NewsroomService;
+import az.itbrains.brightkids.services.SupportBannerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class NewsroomServiceImpl implements NewsroomService {
+public class SupportBannerServiceImpl implements SupportBannerService {
 }

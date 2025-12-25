@@ -19,4 +19,6 @@ public class Newsroom {
     private String date;
     private String actionText;
     private String actionUrl;
+    private String buttonText;
+    private String buttonUrl;
 }

@@ -12,6 +12,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PatientStory extends BaseEntity {
+//    Daniel Plays and Grows with World-Class Care
+
     private String title;
     private String description;
     private String buttonText;

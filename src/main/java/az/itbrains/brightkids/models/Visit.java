@@ -6,18 +6,17 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
+@Entity
 @Getter
 @Setter
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalService {
-
-//    Why Families Trust Us
+public class Visit {
 
     private String title;
-    private String description;
-    private String imageUrl;
-    private String actionText;
-    private String actionUrl;
+    private String subTitle;
+    private String mapUrl;
+    private List<Location> locations;
 }

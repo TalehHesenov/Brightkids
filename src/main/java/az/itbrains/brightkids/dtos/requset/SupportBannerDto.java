@@ -9,10 +9,12 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalServiceDto {
+public class SupportBannerDto {
     private String title;
     private String description;
+    private String firstButtonText;
+    private String firstButtonUrl;
+    private String secondButtonText;
+    private String secondButtonUrl;
     private String imageUrl;
-    private String actionText;
-    private String actionUrl;
 }

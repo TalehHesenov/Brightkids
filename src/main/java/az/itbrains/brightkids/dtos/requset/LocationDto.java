@@ -9,10 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalServiceDto {
-    private String title;
-    private String description;
-    private String imageUrl;
-    private String actionText;
-    private String actionUrl;
+public class LocationDto {
+    private String address;
+    private String detail;
 }
