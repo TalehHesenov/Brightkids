@@ -1,4 +1,4 @@
-package az.itbrains.brightkids.dtos.requset;
+package az.itbrains.brightkids.dtos.response;
 
 import az.itbrains.brightkids.models.Location;
 import lombok.AllArgsConstructor;
@@ -12,7 +12,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class VisitDto {
+public class VisitResponse {
     private String title;
     private String subTitle;
     private String mapUrl;

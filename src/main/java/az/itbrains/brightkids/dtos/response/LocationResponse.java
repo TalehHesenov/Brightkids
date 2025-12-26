@@ -1,4 +1,4 @@
-package az.itbrains.brightkids.dtos.requset;
+package az.itbrains.brightkids.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class LocationDto {
+public class LocationResponse {
     private String address;
     private String detail;
 }

@@ -1,9 +1,9 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.DoctorDto;
+import az.itbrains.brightkids.dtos.requset.DoctorRequest;
 
 import java.util.List;
 
 public interface DoctorService {
-    List<DoctorDto> getAllDoctor();
+    List<DoctorRequest> getAllDoctor();
 }
