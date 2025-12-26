@@ -15,7 +15,7 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Visit {
+public class Visit extends BaseEntity{
 
     private String title;
     private String subTitle;

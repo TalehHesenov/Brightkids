@@ -13,7 +13,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Location {
+public class Location extends BaseEntity{
     private String address;
     private String detail;
 
