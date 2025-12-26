@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.SupportBannerRequest;
+import az.itbrains.brightkids.dtos.request.SupportBannerRequest;
 import az.itbrains.brightkids.dtos.response.SupportBannerResponse;
 import az.itbrains.brightkids.mapper.SupportBannerMapper;
 import az.itbrains.brightkids.models.SupportBanner;

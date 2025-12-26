@@ -1,7 +1,6 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.LocationRequest;
-import az.itbrains.brightkids.dtos.requset.VisitRequest;
+import az.itbrains.brightkids.dtos.request.VisitRequest;
 import az.itbrains.brightkids.dtos.response.VisitResponse;
 import az.itbrains.brightkids.mapper.LocationMapper;
 import az.itbrains.brightkids.mapper.VisitMapper;

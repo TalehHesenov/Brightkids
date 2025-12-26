@@ -1,8 +1,6 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.QuickActionRequest;
-import az.itbrains.brightkids.dtos.requset.QuickActionRequest;
-import az.itbrains.brightkids.dtos.response.QuickActionResponse;
+import az.itbrains.brightkids.dtos.request.QuickActionRequest;
 import az.itbrains.brightkids.dtos.response.QuickActionResponse;
 import az.itbrains.brightkids.mapper.QuickActionMapper;
 import az.itbrains.brightkids.models.QuickAction;

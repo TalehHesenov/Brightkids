@@ -1,4 +1,4 @@
-package az.itbrains.brightkids.dtos.requset;
+package az.itbrains.brightkids.dtos.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

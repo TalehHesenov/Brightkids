@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.HeroBannerRequest;
+import az.itbrains.brightkids.dtos.request.HeroBannerRequest;
 import az.itbrains.brightkids.dtos.response.HeroBannerResponse;
 import org.springframework.http.ResponseEntity;
 

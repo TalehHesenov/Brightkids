@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.MedicalSpecialtyRequest;
+import az.itbrains.brightkids.dtos.request.MedicalSpecialtyRequest;
 import az.itbrains.brightkids.dtos.response.MedicalSpecialtyResponse;
 import az.itbrains.brightkids.services.MedicalSpecialtyService;
 import jakarta.validation.Valid;

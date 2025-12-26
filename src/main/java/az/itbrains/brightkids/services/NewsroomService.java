@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.NewsroomRequest;
+import az.itbrains.brightkids.dtos.request.NewsroomRequest;
 import az.itbrains.brightkids.dtos.response.NewsroomResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,7 @@
 package az.itbrains.brightkids.mapper;
 
-import az.itbrains.brightkids.dtos.requset.MedicalSpecialtyRequest;
-import az.itbrains.brightkids.dtos.requset.QuickActionRequest;
-import az.itbrains.brightkids.dtos.response.MedicalSpecialtyResponse;
+import az.itbrains.brightkids.dtos.request.QuickActionRequest;
 import az.itbrains.brightkids.dtos.response.QuickActionResponse;
-import az.itbrains.brightkids.models.MedicalSpecialty;
 import az.itbrains.brightkids.models.QuickAction;
 import org.mapstruct.Mapper;
 import org.mapstruct.MappingTarget;

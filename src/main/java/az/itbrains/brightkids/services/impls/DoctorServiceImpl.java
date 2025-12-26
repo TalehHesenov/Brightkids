@@ -1,13 +1,9 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.DoctorRequest;
-import az.itbrains.brightkids.dtos.requset.DoctorRequest;
+import az.itbrains.brightkids.dtos.request.DoctorRequest;
 import az.itbrains.brightkids.dtos.response.DoctorResponse;
 import az.itbrains.brightkids.mapper.DoctorMapper;
-import az.itbrains.brightkids.mapper.DoctorMapper;
 import az.itbrains.brightkids.models.Doctor;
-import az.itbrains.brightkids.models.Doctor;
-import az.itbrains.brightkids.repositories.DoctorRepository;
 import az.itbrains.brightkids.repositories.DoctorRepository;
 import az.itbrains.brightkids.services.DoctorService;
 import lombok.RequiredArgsConstructor;

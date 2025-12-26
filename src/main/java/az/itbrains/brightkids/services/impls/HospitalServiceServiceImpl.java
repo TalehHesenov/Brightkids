@@ -1,9 +1,8 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.HospitalServiceRequest;
+import az.itbrains.brightkids.dtos.request.HospitalServiceRequest;
 import az.itbrains.brightkids.dtos.response.HospitalServiceResponse;
 import az.itbrains.brightkids.mapper.HospitalServiceMapper;
-import az.itbrains.brightkids.models.HospitalService;
 import az.itbrains.brightkids.models.HospitalService;
 import az.itbrains.brightkids.repositories.HospitalServiceRepository;
 import az.itbrains.brightkids.services.HospitalServiceService;

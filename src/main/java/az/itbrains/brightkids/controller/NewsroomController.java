@@ -1,7 +1,6 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.NewsroomRequest;
-import az.itbrains.brightkids.dtos.response.HospitalServiceResponse;
+import az.itbrains.brightkids.dtos.request.NewsroomRequest;
 import az.itbrains.brightkids.dtos.response.NewsroomResponse;
 import az.itbrains.brightkids.services.NewsroomService;
 import jakarta.validation.Valid;

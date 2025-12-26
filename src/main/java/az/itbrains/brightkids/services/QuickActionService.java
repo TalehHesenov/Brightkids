@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.QuickActionRequest;
+import az.itbrains.brightkids.dtos.request.QuickActionRequest;
 import az.itbrains.brightkids.dtos.response.QuickActionResponse;
 import org.springframework.http.ResponseEntity;
 

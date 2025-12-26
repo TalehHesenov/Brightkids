@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.VisitRequest;
+import az.itbrains.brightkids.dtos.request.VisitRequest;
 import az.itbrains.brightkids.dtos.response.VisitResponse;
 import az.itbrains.brightkids.services.VisitService;
 import jakarta.validation.Valid;

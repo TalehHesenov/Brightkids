@@ -1,4 +1,4 @@
-package az.itbrains.brightkids.dtos.requset;
+package az.itbrains.brightkids.dtos.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,10 +9,13 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalServiceRequest {
+public class NewsroomRequest {
     private String title;
-    private String description;
     private String imageUrl;
+    private String category;
+    private String date;
     private String actionText;
     private String actionUrl;
+    private String buttonText;
+    private String buttonUrl;
 }

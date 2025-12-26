@@ -1,6 +1,5 @@
-package az.itbrains.brightkids.dtos.requset;
+package az.itbrains.brightkids.dtos.request;
 
-import az.itbrains.brightkids.models.Location;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

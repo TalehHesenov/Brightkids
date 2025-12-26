@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.SupportBannerRequest;
+import az.itbrains.brightkids.dtos.request.SupportBannerRequest;
 import az.itbrains.brightkids.dtos.response.SupportBannerResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

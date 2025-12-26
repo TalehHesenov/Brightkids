@@ -1,7 +1,6 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.LocationRequest;
-import az.itbrains.brightkids.dtos.response.HospitalServiceResponse;
+import az.itbrains.brightkids.dtos.request.LocationRequest;
 import az.itbrains.brightkids.dtos.response.LocationResponse;
 import az.itbrains.brightkids.services.LocationService;
 import jakarta.validation.Valid;

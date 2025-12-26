@@ -1,12 +1,9 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.MedicalSpecialtyRequest;
+import az.itbrains.brightkids.dtos.request.MedicalSpecialtyRequest;
 import az.itbrains.brightkids.dtos.response.MedicalSpecialtyResponse;
-import az.itbrains.brightkids.mapper.HeroBannerMapper;
 import az.itbrains.brightkids.mapper.MedicalSpecialtyMapper;
-import az.itbrains.brightkids.models.HeroBanner;
 import az.itbrains.brightkids.models.MedicalSpecialty;
-import az.itbrains.brightkids.repositories.HeroBannerRepository;
 import az.itbrains.brightkids.repositories.MedicalSpecialtyRepository;
 import az.itbrains.brightkids.services.MedicalSpecialtyService;
 import lombok.RequiredArgsConstructor;

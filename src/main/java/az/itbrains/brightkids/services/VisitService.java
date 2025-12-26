@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.VisitRequest;
+import az.itbrains.brightkids.dtos.request.VisitRequest;
 import az.itbrains.brightkids.dtos.response.VisitResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,6 @@
 package az.itbrains.brightkids.mapper;
 
-import az.itbrains.brightkids.dtos.requset.HospitalServiceRequest;
-import az.itbrains.brightkids.dtos.requset.PatientStoryRequest;
+import az.itbrains.brightkids.dtos.request.HospitalServiceRequest;
 import az.itbrains.brightkids.dtos.response.HospitalServiceResponse;
 import az.itbrains.brightkids.dtos.response.PatientStoryResponse;
 import az.itbrains.brightkids.models.HospitalService;

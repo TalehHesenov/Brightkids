@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.LocationRequest;
+import az.itbrains.brightkids.dtos.request.LocationRequest;
 import az.itbrains.brightkids.dtos.response.LocationResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

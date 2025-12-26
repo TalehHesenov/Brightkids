@@ -1,7 +1,6 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.DoctorRequest;
-import az.itbrains.brightkids.dtos.requset.DoctorRequest;
+import az.itbrains.brightkids.dtos.request.DoctorRequest;
 import az.itbrains.brightkids.dtos.response.DoctorResponse;
 import org.springframework.http.ResponseEntity;
 

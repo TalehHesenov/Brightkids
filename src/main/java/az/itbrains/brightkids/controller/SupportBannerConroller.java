@@ -1,8 +1,6 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.HeroBannerRequest;
-import az.itbrains.brightkids.dtos.requset.SupportBannerRequest;
-import az.itbrains.brightkids.dtos.response.HeroBannerResponse;
+import az.itbrains.brightkids.dtos.request.SupportBannerRequest;
 import az.itbrains.brightkids.dtos.response.SupportBannerResponse;
 import az.itbrains.brightkids.services.SupportBannerService;
 import jakarta.validation.Valid;

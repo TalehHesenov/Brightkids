@@ -1,7 +1,5 @@
 package az.itbrains.brightkids.dtos.response;
 
-import az.itbrains.brightkids.dtos.requset.LocationRequest;
-import az.itbrains.brightkids.models.Location;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.QuickActionRequest;
+import az.itbrains.brightkids.dtos.request.QuickActionRequest;
 import az.itbrains.brightkids.dtos.response.QuickActionResponse;
 import az.itbrains.brightkids.services.QuickActionService;
 import jakarta.validation.Valid;

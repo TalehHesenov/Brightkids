@@ -1,10 +1,7 @@
 package az.itbrains.brightkids.services;
 
-import az.itbrains.brightkids.dtos.requset.HeroBannerRequest;
-import az.itbrains.brightkids.dtos.requset.MedicalSpecialtyRequest;
-import az.itbrains.brightkids.dtos.response.HeroBannerResponse;
+import az.itbrains.brightkids.dtos.request.MedicalSpecialtyRequest;
 import az.itbrains.brightkids.dtos.response.MedicalSpecialtyResponse;
-import az.itbrains.brightkids.repositories.MedicalSpecialtyRepository;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.mapper;
 
-import az.itbrains.brightkids.dtos.requset.SupportBannerRequest;
+import az.itbrains.brightkids.dtos.request.SupportBannerRequest;
 import az.itbrains.brightkids.dtos.response.SupportBannerResponse;
 import az.itbrains.brightkids.models.SupportBanner;
 import org.mapstruct.Mapper;

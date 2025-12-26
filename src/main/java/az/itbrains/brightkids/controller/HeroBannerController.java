@@ -1,10 +1,9 @@
 package az.itbrains.brightkids.controller;
 
-import az.itbrains.brightkids.dtos.requset.HeroBannerRequest;
+import az.itbrains.brightkids.dtos.request.HeroBannerRequest;
 import az.itbrains.brightkids.dtos.response.HeroBannerResponse;
 import az.itbrains.brightkids.services.HeroBannerService;
 import jakarta.validation.Valid;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

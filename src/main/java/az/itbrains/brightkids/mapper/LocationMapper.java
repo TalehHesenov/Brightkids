@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.mapper;
 
-import az.itbrains.brightkids.dtos.requset.LocationRequest;
+import az.itbrains.brightkids.dtos.request.LocationRequest;
 import az.itbrains.brightkids.dtos.response.LocationResponse;
 import az.itbrains.brightkids.models.Location;
 import org.mapstruct.Mapper;
