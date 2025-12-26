@@ -20,6 +20,7 @@ public class Location extends BaseEntity{
     private String address;
     private String detail;
 
+
     @ManyToOne
     @JoinColumn(name="visit_id")
     private Visit visit;

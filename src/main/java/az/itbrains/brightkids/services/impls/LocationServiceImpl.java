@@ -4,7 +4,6 @@ import az.itbrains.brightkids.dtos.requset.LocationRequest;
 import az.itbrains.brightkids.dtos.response.LocationResponse;
 import az.itbrains.brightkids.mapper.LocationMapper;
 import az.itbrains.brightkids.models.Location;
-import az.itbrains.brightkids.models.Location;
 import az.itbrains.brightkids.repositories.LocationRepository;
 import az.itbrains.brightkids.services.LocationService;
 import lombok.RequiredArgsConstructor;

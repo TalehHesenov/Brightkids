@@ -1,5 +1,6 @@
 package az.itbrains.brightkids.dtos.response;
 
+import az.itbrains.brightkids.dtos.requset.LocationRequest;
 import az.itbrains.brightkids.models.Location;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,5 +17,5 @@ public class VisitResponse {
     private String title;
     private String subTitle;
     private String mapUrl;
-    private List<Location> locations;
+    private List<LocationResponse> locations;
 }

@@ -16,5 +16,5 @@ public class VisitRequest {
     private String title;
     private String subTitle;
     private String mapUrl;
-    private List<Location> locations;
+    private List<LocationRequest> locations;
 }

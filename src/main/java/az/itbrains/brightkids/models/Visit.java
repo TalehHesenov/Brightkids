@@ -23,6 +23,8 @@ public class Visit extends BaseEntity{
     private String subTitle;
     private String mapUrl;
 
+
     @OneToMany(mappedBy = "visit")
     private List<Location> locations =new ArrayList<>();
+
 }

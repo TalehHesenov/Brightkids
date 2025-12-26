@@ -12,4 +12,5 @@ import lombok.Setter;
 public class LocationResponse {
     private String address;
     private String detail;
+    private Long visitId;
 }
