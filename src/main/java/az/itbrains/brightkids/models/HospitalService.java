@@ -11,7 +11,7 @@ import lombok.Setter;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class HospitalService {
+public class HospitalService extends BaseEntity {
 
 //    Why Families Trust Us
 

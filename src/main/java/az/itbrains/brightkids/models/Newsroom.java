@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Newsroom {
+public class Newsroom extends BaseEntity{
 
     private String title;
     private String imageUrl;
