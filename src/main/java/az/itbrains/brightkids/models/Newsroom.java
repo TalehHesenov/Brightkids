@@ -13,6 +13,8 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Newsroom extends BaseEntity{
 
+    //!TODO Section 7
+
     private String title;
     private String imageUrl;
     private String category;

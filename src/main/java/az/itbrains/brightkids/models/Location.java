@@ -14,6 +14,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Location extends BaseEntity{
+
+    //!TODO Section 8.1
+
     private String address;
     private String detail;
 

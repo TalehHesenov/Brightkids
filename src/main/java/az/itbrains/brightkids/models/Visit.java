@@ -17,6 +17,8 @@ import java.util.List;
 @NoArgsConstructor
 public class Visit extends BaseEntity{
 
+    //!TODO Section 8
+
     private String title;
     private String subTitle;
     private String mapUrl;
