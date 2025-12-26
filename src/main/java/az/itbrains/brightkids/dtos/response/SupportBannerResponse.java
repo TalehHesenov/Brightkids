@@ -1,4 +1,4 @@
-package az.itbrains.brightkids.dtos.requset;
+package az.itbrains.brightkids.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,10 +9,12 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class PatientStoryDto {
+public class SupportBannerResponse {
     private String title;
     private String description;
-    private String buttonText;
-    private String buttonUrl;
+    private String firstButtonText;
+    private String firstButtonUrl;
+    private String secondButtonText;
+    private String secondButtonUrl;
     private String imageUrl;
 }

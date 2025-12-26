@@ -1,6 +1,6 @@
 package az.itbrains.brightkids.services.impls;
 
-import az.itbrains.brightkids.dtos.requset.DoctorDto;
+import az.itbrains.brightkids.dtos.requset.DoctorRequest;
 import az.itbrains.brightkids.mapper.DoctorMapper;
 import az.itbrains.brightkids.models.Doctor;
 import az.itbrains.brightkids.repositories.DoctorRepository;
@@ -18,7 +18,7 @@ public class DoctorServiceImpl implements DoctorService {
 
 
     @Override
-    public List<DoctorDto> getAllDoctor() {
+    public List<DoctorRequest> getAllDoctor() {
         List<Doctor> doctors = doctorRepository.findAll();
 
         return doctorMapper.toDtoList(doctors);
