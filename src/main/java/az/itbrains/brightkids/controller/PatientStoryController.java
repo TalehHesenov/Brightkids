@@ -16,8 +16,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class PatientStoryController {
     private final PatientStoryService patientStoryService;
-    @PostMapping
-    public ResponseEntity<HeroBannerResponse> createHeroBanner(@Valid @RequestBody HeroBannerRequest request) {
-        return heroBannerService.createHeroBanner(request);
-    }
+
 }
