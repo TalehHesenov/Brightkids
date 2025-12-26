@@ -14,6 +14,7 @@ import org.apache.catalina.User;
 @NoArgsConstructor
 public class Doctor extends BaseEntity {
 
+    //!TODO Section 4
 
     private String name;
     private String imgUrl;
