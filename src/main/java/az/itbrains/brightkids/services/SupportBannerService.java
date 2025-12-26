@@ -1,16 +1,16 @@
 package az.itbrains.brightkids.services;
 
 import az.itbrains.brightkids.dtos.requset.SupportBannerRequest;
-import az.itbrains.brightkids.dtos.response.HeroBannerResponse;
+import az.itbrains.brightkids.dtos.response.SupportBannerResponse;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 
 public interface SupportBannerService {
-    ResponseEntity<HeroBannerResponse> createSupportBanner(@Valid SupportBannerRequest supportBannerRequest);
+    ResponseEntity<SupportBannerResponse> createSupportBanner(@Valid SupportBannerRequest supportBannerRequest);
 
-    ResponseEntity<HeroBannerResponse> getSupportBanner(Long id);
+    ResponseEntity<SupportBannerResponse> getSupportBanner(Long id);
 
-    ResponseEntity<HeroBannerResponse> updateSupportBanner(Long id, @Valid SupportBannerRequest supportBannerRequest);
+    ResponseEntity<SupportBannerResponse> updateSupportBanner(Long id, @Valid SupportBannerRequest supportBannerRequest);
 
-    void deleteSupportBanner(Long id);
+    ResponseEntity<Void> deleteSupportBanner(Long id);
 }

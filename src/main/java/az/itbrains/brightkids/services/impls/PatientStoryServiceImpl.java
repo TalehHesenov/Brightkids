@@ -3,12 +3,10 @@ package az.itbrains.brightkids.services.impls;
 import az.itbrains.brightkids.dtos.requset.PatientStoryRequest;
 import az.itbrains.brightkids.dtos.response.PatientStoryResponse;
 import az.itbrains.brightkids.mapper.PatientStoryMapper;
-import az.itbrains.brightkids.models.HeroBanner;
 import az.itbrains.brightkids.models.PatientStory;
 import az.itbrains.brightkids.repositories.PatientStoryRepository;
 import az.itbrains.brightkids.services.PatientStoryService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -29,14 +27,16 @@ public class PatientStoryServiceImpl implements PatientStoryService {
     @Override
     public ResponseEntity<PatientStoryResponse> getPatientStory(Long id) {
         PatientStory patientStory = patientStoryRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "HeroBanner tapılmadı"));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "PatientStory tapılmadı"));
         return new ResponseEntity<>(patientStoryMapper.toDto(patientStory), HttpStatus.OK);
     }
 
     @Override
-    public ResponseEntity<PatientStoryResponse> updatePatientStory(Long id, PatientStoryRequest patientStoryRequest) {
+    public ResponseEntity<PatientStoryResponse> updatePatientStory(
+            Long id, PatientStoryRequest patientStoryRequest){
+
         PatientStory patientStory = patientStoryRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "HeroBanner tapılmadı"));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "PatientStory tapılmadı"));
 
         patientStoryMapper.updateEntityFromDto(patientStoryRequest, patientStory);
         patientStoryRepository.save(patientStory);
@@ -46,7 +46,7 @@ public class PatientStoryServiceImpl implements PatientStoryService {
     @Override
     public ResponseEntity<Void> deletePatientStory(Long id) {
         PatientStory patientStory = patientStoryRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "HeroBanner tapılmadı"));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "PatientStory tapılmadı"));
 
         patientStoryRepository.delete(patientStory);
 

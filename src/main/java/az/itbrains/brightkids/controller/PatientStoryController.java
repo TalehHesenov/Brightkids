@@ -17,7 +17,8 @@ public class PatientStoryController {
     private final PatientStoryService patientStoryService;
 
     @PostMapping
-    public ResponseEntity<PatientStoryResponse> createHeroBanner(@Valid @RequestBody PatientStoryRequest request) {
+    public ResponseEntity<PatientStoryResponse> createHeroBanner(
+            @Valid @RequestBody PatientStoryRequest request) {
         return patientStoryService.createPatientStory(request);
     }
     @GetMapping("/{id}")
@@ -26,7 +27,8 @@ public class PatientStoryController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<PatientStoryResponse> updatePatientStory(@Valid @RequestBody PatientStoryRequest patientStoryRequest, @PathVariable Long id) {
+    public ResponseEntity<PatientStoryResponse> updatePatientStory(
+            @Valid @RequestBody PatientStoryRequest patientStoryRequest, @PathVariable Long id) {
         return patientStoryService.updatePatientStory(id, patientStoryRequest);
     }
 
