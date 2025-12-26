@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 public class HeroBannerController {
     private final HeroBannerService heroBannerService;
 
-    @PostMapping()
+    @PostMapping
     public ResponseEntity<HeroBannerResponse> createHeroBanner(@Valid @RequestBody HeroBannerRequest request) {
         return heroBannerService.createHeroBanner(request);
     }
