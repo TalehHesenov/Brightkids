@@ -1,5 +1,6 @@
 package az.itbrains.brightkids.dtos.response;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,11 +10,10 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class DoctorResponse {
+public class QuickActionResponse {
 
-    private String name;
-    private String imgUrl;
-    private String department;
-    private String urlLink;
-    private String urlName;
+    private String iconImg;
+    private String title;
+    private String linkUrl;
+    private String linkName;
 }

@@ -14,6 +14,8 @@ import lombok.Setter;
 @NoArgsConstructor
 public class HeroBanner extends BaseEntity {
 
+    //!TODO Section1
+
     private String title;
     private String description;
     private String imageUrl;

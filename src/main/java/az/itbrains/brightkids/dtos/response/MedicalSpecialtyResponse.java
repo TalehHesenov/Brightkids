@@ -11,8 +11,9 @@ import lombok.Setter;
 @NoArgsConstructor
 public class MedicalSpecialtyResponse {
 
-    private String iconImg;
+    private String imgUrl;
     private String title;
+    private String description;
     private String linkUrl;
     private String linkName;
 }

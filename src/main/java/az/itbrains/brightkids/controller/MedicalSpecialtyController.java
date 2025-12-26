@@ -8,6 +8,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/medical-specialty")
 @RequiredArgsConstructor
@@ -22,6 +24,11 @@ public class MedicalSpecialtyController {
     @GetMapping("/{id}")
     public ResponseEntity<MedicalSpecialtyResponse> getMedicalSpecialty(@PathVariable Long id) {
         return medicalSpecialtyService.getMedicalSpecialty(id);
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<List<MedicalSpecialtyResponse>> getAllMedicalSpecialty() {
+        return medicalSpecialtyService.getAllMedicalSpecialty();
     }
 
     @PutMapping("/{id}")

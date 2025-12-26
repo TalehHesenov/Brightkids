@@ -12,8 +12,12 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class MedicalSpecialty extends BaseEntity {
-    private String iconImg;
+
+//!TODO Section3
+
+    private String imgUrl;
     private String title;
+    private String description;
     private String linkUrl;
     private String linkName;
 }
