@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/support-banners")
 @RequiredArgsConstructor
-public class SupportBannerConroller {
+public class SupportBannerController {
     private final SupportBannerService supportBannerService;
     @PostMapping
     public ResponseEntity<SupportBannerResponse> createHeroBanner(

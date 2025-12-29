@@ -23,8 +23,8 @@ public class NewsroomServiceImpl implements NewsroomService {
     @Override
     public ResponseEntity<NewsroomResponse> createNewsroom(NewsroomRequest newsroomRequest) {
         Newsroom newsroom = newsroomMapper.toEntity(newsroomRequest);
-        newsroomRepository.save(newsroom);
-        return new ResponseEntity<>(newsroomMapper.toDto(newsroom), HttpStatus.CREATED);
+        Newsroom saved = newsroomRepository.save(newsroom);
+        return new ResponseEntity<>(newsroomMapper.toDto(saved), HttpStatus.CREATED);
     }
 
     @Override
@@ -32,7 +32,7 @@ public class NewsroomServiceImpl implements NewsroomService {
         Newsroom newsroom = newsroomRepository.findById(id)
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Newsroom tapılmadı"));
 
-        return new ResponseEntity<>(newsroomMapper.toDto(newsroom), HttpStatus.OK);
+        return ResponseEntity.ok(newsroomMapper.toDto(newsroom));
     }
 
     @Override
@@ -41,15 +41,16 @@ public class NewsroomServiceImpl implements NewsroomService {
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Newsroom tapılmadı"));
 
         newsroomMapper.updateEntityFromDto(newsroomRequest, newsroom);
-        newsroomRepository.save(newsroom);
-        return new ResponseEntity<>(newsroomMapper.toDto(newsroom), HttpStatus.OK);
+        Newsroom updated = newsroomRepository.save(newsroom);
+        return ResponseEntity.ok(newsroomMapper.toDto(updated));
     }
 
     @Override
     public ResponseEntity<Void> deleteNewsroom(Long id) {
-        Newsroom newsroom = newsroomRepository.findById(id)
-                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Newsroom tapılmadı"));
-        newsroomRepository.delete(newsroom);
+        if (!newsroomRepository.existsById(id)) {
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Newsroom tapılmadı");
+        }
+        newsroomRepository.deleteById(id);
         return ResponseEntity.noContent().build();
     }
 
@@ -57,10 +58,8 @@ public class NewsroomServiceImpl implements NewsroomService {
     public ResponseEntity<List<NewsroomResponse>> getAllNewsroomService() {
         List<Newsroom> newsrooms = newsroomRepository.findAll();
 
-        if (newsrooms.isEmpty()) {
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-        }
+        return ResponseEntity.ok(newsroomMapper.toListDto(newsrooms));
 
-        return new ResponseEntity<>(newsroomMapper.toListDto(newsrooms), HttpStatus.OK);
+
     }
 }
